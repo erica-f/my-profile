@@ -1,0 +1,45 @@
+body {
+background-color:darkseagreen;
+}
+h1 {
+    text-align:center;
+}
+a {
+    display: block;
+    text-align:center;
+}
+img {
+    margin: auto;
+    display:block;
+}
+#intro {
+    text-align:center;
+}
+#profile-page {
+width: 600px;
+margin:auto;
+background-color: white;
+border-radius: 5%;
+padding:20px;
+}
+
+.cv-section {
+border: green dotted 2px;
+padding: 5px;
+margin: 5px;
+border-radius: 25px;
+}
+
+.profile-image {
+border-radius: 50%;
+width: 100px;
+height: 100px;
+}
+
+ul li {
+color: green;
+}
+
+a:hover {
+color:white;
+}
