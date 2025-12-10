@@ -17,20 +17,52 @@ img {
     text-align:center;
 }
 main {
-width: 600px;
-margin:0 auto;
+width: 55vw;
+margin: 0 auto;
 background-color: floralwhite;
 border-radius: 5%;
+border: 1px;
 padding:20px;
+box-shadow: 5px 5px 10px rgb(98, 131, 98);
 }
 nav {
     display: flex;
+     justify-content: center;
+    width: 400px;
+    margin: 0 auto;
+    border-bottom: solid 2px rgb(98, 131, 98);
+}
+nav a {
+    padding-bottom: 5px;
+    text-decoration: none;
+    margin: 1vw;
+}
+a:visited, a:active {
+    color: darkgreen;
+}
+#cv {
+margin: 5px;
+
+}
+.leftside {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.rightside {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    list-style-position: inside;
+    align-items: center;
 }
 .cv-section {
-border: green dotted 2px;
-padding: 5px;
+background-color: darkseagreen;
+padding: 5px 35px ;
 margin: 5px;
-border-radius: 25px;
+width: 50%;
+height: 15%;
+box-shadow: 5px 5px 10px rgb(98, 131, 98) inset;
 }
 
 .profile-image {
@@ -39,10 +71,6 @@ width: 100px;
 height: 100px;
 }
 
-ul li {
-color: green;
-}
-
 a:hover {
-color:white;
+color: slategray;
 }
