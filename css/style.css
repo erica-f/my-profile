@@ -12,17 +12,20 @@ img {
     margin: auto;
     display:block;
 }
+
 #intro {
     text-align:center;
 }
 main {
 width: 600px;
-margin:auto;
-background-color: white;
+margin:0 auto;
+background-color: floralwhite;
 border-radius: 5%;
 padding:20px;
 }
-
+nav {
+    display: flex;
+}
 .cv-section {
 border: green dotted 2px;
 padding: 5px;
